@@ -1,0 +1,12 @@
+.section_descriptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .section_descriptions {
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
